@@ -1,9 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
+
 body {
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
     background: #47626d;
     color: white;
     text-align: center;
-    font-size: 15px;
+     /*font-size: 15px;
     font-weight:normal;
-    cursor: auto;
-  }
+    font-family: 'Merriweather', serif;*/
+    font: normal  16px 'Merriweather', serif;
+    
+}
+.avatar {
+  width: 200px;
+  border-radius: 28%;
+  box-shadow: 7px 7px 25px rgba(0,0,0,025);
+}
+
+.info p {
+  color: rgb(7, 247, 79);
+  margin: 0%;
+  font-style: italic;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.social {
+  background: gray;
+}
